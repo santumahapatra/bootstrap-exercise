@@ -1,8 +1,22 @@
 .multunus-header {
   background-color: #202020;
-  padding: 5px 0;
+  padding: 0;
   margin: 0;
   border: 0;
+}
+
+.multunus-header .navbar-brand {
+  background-color: #D22341;
+  padding: 6px;
+  margin: 0;
+}
+
+.multunus-header .navbar-brand:hover {
+  background-color: #D22341;
+}
+
+.multunus-header .navbar-default .navbar-nav {
+  padding: 5px 0;
 }
 
 .multunus-header.navbar-default .navbar-nav > li > a {
@@ -62,6 +76,7 @@
 
 .multunus-video-btn.btn-primary{
   border:0;
+  box-shadow: 2px 2px 2px #000;
 }
 
 body section {
