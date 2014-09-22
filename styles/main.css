@@ -2,6 +2,7 @@
   background-color: #202020;
   padding: 5px 0;
   margin: 0;
+  border: 0;
 }
 
 .multunus-header.navbar-default .navbar-nav > li > a {
@@ -57,4 +58,22 @@
   top:20%;
   margin-left:8px;
   font-size: 1.5em;
+}
+
+body section {
+  color: #706F6C;
+}
+
+.big-picture-text-container {
+  
+}
+/*
+.big-picture-container .big-picture {
+  width:230px;
+  height:210px;
+}
+*/
+.different-container {
+  width:280px;
+  height:190px;
 }
