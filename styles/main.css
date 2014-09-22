@@ -60,6 +60,10 @@
   font-size: 1.5em;
 }
 
+.multunus-video-btn.btn-primary{
+  border:0;
+}
+
 body section {
   color: #706F6C;
 }
