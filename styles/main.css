@@ -1,0 +1,21 @@
+.multunus-header {
+  background-color: #202020;
+  padding: 5px 0;
+}
+
+.multunus-header.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-size:.92em;
+}
+
+.multunus-header.navbar-default .navbar-nav > li.multunus-slash > a {
+  background: transparent url("../images/slash.gif") no-repeat right;
+}
+
+.multunus-header.navbar-default .navbar-nav.navbar-right > li > a {
+  font-size: 1.05em;
+}
+
+.multunus-header.navbar-default .navbar-nav > li > a:hover {
+  color: #D22341;
+}
