@@ -1,3 +1,17 @@
+
+/* General */
+
+body a {
+  color: #D22341;
+}
+
+body a:hover {
+  color: #D22341;
+  text-decoration: underline;
+}
+
+/* Navigation Bar */
+
 .multunus-header {
   background-color: #202020;
   padding: 0;
@@ -35,6 +49,8 @@
 .multunus-header.navbar-default .navbar-nav > li > a:hover {
   color: #D22341;
 }
+
+/* Video Section */
 
 .multunus-video {
   margin: 0;
@@ -78,6 +94,8 @@
   border:0;
   box-shadow: 2px 2px 2px #000;
 }
+
+/* Big Picture Section */
 
 .big-picture-section .col-md-4 {
   color:#333333;
