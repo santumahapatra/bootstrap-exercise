@@ -20,14 +20,14 @@ body a:hover {
 }
 
 .multunus-header .navbar-brand {
-  background-color: #D22341;
-  padding: 12px 6px 6px 6px;
+  background-color: #BD1F3A;
+  padding: 12px 24px 6px 6px;
   height: 65px;
   margin: 0;
 }
 
 .multunus-header .navbar-brand:hover {
-  background-color: #D22341;
+  background-color: #BD1F3A;
 }
 
 .multunus-header.navbar-default .navbar-nav {
