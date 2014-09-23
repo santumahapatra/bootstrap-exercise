@@ -97,7 +97,7 @@ body a:hover {
 
 /* Big Picture Section */
 
-.big-picture-section .col-md-4 {
+.big-picture-section .big-picture-column {
   color:#333333;
   position: relative;
   float:none;
