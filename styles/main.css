@@ -117,6 +117,17 @@ body a:hover {
   font-size: 2em;
 }
 
+/* Services Section */
+
+.services-section {
+  background-color: #F1F1F1;
+}
+
+.services-section .services-header {
+  border: 0;
+  padding-bottom: 40px;
+}
+
 /* Media Queries */
 
 @media screen and ( max-width: 480px ) {
