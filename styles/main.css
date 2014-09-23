@@ -1,6 +1,10 @@
 
 /* General */
 
+body {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica-,Arial,sans-serif;
+}
+
 body a {
   color: #D22341;
 }
@@ -78,16 +82,19 @@ body a:hover {
   border: 0;
 }
 
-.multunus-video.container .multunus-video-overlay-message .btn.multunus-video-btn {
-  margin-top: 20px;
-  background-color: #d22341;
+.multunus-btn {
   width:180px;
   height: 60px;
-  position: relative;
+  background-color: #d22341;
 }
 
-.multunus-video.container .multunus-video-overlay-message .btn.multunus-video-btn:hover {
+.multunus-btn:hover {
   background-color: #B01732;
+}
+
+.multunus-video.container .multunus-video-overlay-message .btn.multunus-video-btn {
+  margin-top: 20px;
+  position: relative;
 }
 
 .multunus-video.container .multunus-video-overlay-message .btn.multunus-video-btn .multunus-video-btn-text {
@@ -147,11 +154,21 @@ body a:hover {
   font-size: 1.3em;
 }
 
+.recent-work-section .view-work-paragraph {
+  padding-bottom: 40px;
+}
+
 .grey-border-bottom {
   border-style: none none dotted none;
   border-color: #d4d4d4;
   border-width: 1px;
   padding: 20px 0;
+}
+
+.recent-work-section .see-all-btn {
+  width:140px;
+  font-size: 22px;
+  text-align: left;
 }
 
 /* Media Queries */
