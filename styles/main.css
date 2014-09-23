@@ -144,12 +144,14 @@ body a:hover {
 }
 
 .recent-work-section .recent-work-description {
-  border-style: dotted none;
-  border-color: #D22341;
+  font-size: 1.3em;
+}
+
+.grey-border-bottom {
+  border-style: none none dotted none;
+  border-color: #d4d4d4;
   border-width: 1px;
   padding: 20px 0;
-  width: 300px;
-  font-size: 1.2em;
 }
 
 /* Media Queries */
