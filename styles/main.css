@@ -79,13 +79,18 @@
   box-shadow: 2px 2px 2px #000;
 }
 
-body section {
-  color: #706F6C;
-}
-
 .big-picture-section .col-md-4 {
+  color:#333333;
   position: relative;
   float:none;
   display: inline-block;
-  width:32.33333%;
+  width: auto;
+}
+
+.big-picture-section .big-picture-title {
+  font-size: 2.5em;
+}
+
+.big-picture-section .big-picture-text {
+  font-size: 2em;
 }
