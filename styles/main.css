@@ -69,7 +69,6 @@ body a:hover {
 .multunus-video-header {
   color: #FFF;
   padding: 0;
-  margin: 0;
   border: 0;
 }
 
@@ -114,9 +113,21 @@ body a:hover {
 
 /* Media Queries */
 
-/* Medium Resolutions and above */
+@media screen and ( max-width: 480px ) {
+  .multunus-video-header {
+    font-size: 2em;
+    margin: 0;
+  }
+}
+
+@media screen and ( min-width: 480px ) {
+  .multunus-video-header {
+    font-size: 4em;
+  }
+}
 
 @media screen and ( min-width: 992px ) {
+
   .big-picture-section .big-picture-column {
     position: relative;
     height: 376px;
