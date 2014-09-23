@@ -68,7 +68,9 @@ body a:hover {
 
 .multunus-video-header {
   color: #FFF;
-  font-size: 4em;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .multunus-video.container .multunus-video-overlay-message .btn.multunus-video-btn {
@@ -99,16 +101,38 @@ body a:hover {
 
 .big-picture-section .big-picture-column {
   color:#333333;
-  position: relative;
-  float:none;
-  display: inline-block;
-  width: auto;
+  padding: 0;
 }
 
-.big-picture-section .big-picture-title {
+.big-picture-section .big-picture-title h2 {
   font-size: 2.5em;
 }
 
-.big-picture-section .big-picture-text {
+.big-picture-section .big-picture-text div {
   font-size: 2em;
+}
+
+/* Media Queries */
+
+/* Medium Resolutions and above */
+
+@media screen and ( min-width: 992px ) {
+  .big-picture-section .big-picture-column {
+    position: relative;
+    height: 376px;
+    width: 33%;
+  }
+
+  .big-picture-section .big-picture-title h2 {
+    text-align: right;
+    position: absolute;
+    top: 33%;
+    left: 65%;
+  }
+
+  .big-picture-section .big-picture-text div {
+    position: absolute;
+    top: 35%;
+  }
+
 }
