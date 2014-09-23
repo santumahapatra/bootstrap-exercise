@@ -83,16 +83,9 @@ body section {
   color: #706F6C;
 }
 
-.big-picture-text-container {
-  
-}
-/*
-.big-picture-container .big-picture {
-  width:230px;
-  height:210px;
-}
-*/
-.different-container {
-  width:280px;
-  height:190px;
+.big-picture-section .col-md-4 {
+  position: relative;
+  float:none;
+  display: inline-block;
+  width:32.33333%;
 }
