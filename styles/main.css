@@ -61,12 +61,6 @@ body a:hover {
   color: #D22341;
 }
 
-/* Big Picture Section */
-
-.big-picture-section {
-  padding-top: 30px;
-}
-
 /* Video Section */
 
 .multunus-video {
@@ -120,7 +114,6 @@ body a:hover {
 
 .big-picture-section .big-picture-column {
   color:#333333;
-  padding: 0;
 }
 
 .big-picture-section .big-picture-title h2 {
