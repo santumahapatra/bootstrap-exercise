@@ -112,12 +112,13 @@ body a:hover {
 
 /* Big Picture Section */
 
-.big-picture-section .big-picture-column {
-  color:#333333;
+.big-picture-section {
+  background-color: #fff;
+  margin: 0;
 }
 
 .big-picture-section .big-picture-title h2 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .big-picture-section .big-picture-text div {
@@ -194,23 +195,27 @@ body a:hover {
 }
 
 @media screen and ( min-width: 992px ) {
-
+/*
   .big-picture-section .big-picture-column {
     position: relative;
     height: 376px;
     width: 33%;
   }
-
+*/
   .big-picture-section .big-picture-title h2 {
     text-align: right;
-    position: absolute;
-    top: 33%;
-    left: 65%;
+    padding-top: 90px;
   }
 
+
   .big-picture-section .big-picture-text div {
-    position: absolute;
-    top: 35%;
+    text-align: left;
+    padding-top: 100px;
+  }
+
+  .big-picture-section .big-picture-text p {
+    font-size: 30px;
+    font-weight: normal;
   }
 
 }
