@@ -195,13 +195,6 @@ body a:hover {
 }
 
 @media screen and ( min-width: 992px ) {
-/*
-  .big-picture-section .big-picture-column {
-    position: relative;
-    height: 376px;
-    width: 33%;
-  }
-*/
   .big-picture-section .big-picture-title h2 {
     text-align: right;
     padding-top: 90px;
